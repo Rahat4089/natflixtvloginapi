@@ -14,7 +14,7 @@ import codecs
 from datetime import datetime
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from flask import Flask, render_template, request, jsonify, session, make_response, abort
+from flask import Flask, render_template, request, jsonify, session, make_response, abort, render_template_string
 from flask_session import Session
 from werkzeug.middleware.proxy_fix import ProxyFix
 from cryptography.hazmat.primitives.ciphers.aead import AESGCM

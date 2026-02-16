@@ -3,3 +3,4 @@ flask-session
 requests
 beautifulsoup4 
 python-dotenv
+cryptography
